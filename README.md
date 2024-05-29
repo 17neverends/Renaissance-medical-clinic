@@ -60,29 +60,3 @@
 
 - Database: PostgreSQL, Redis
 
-**Some view:**
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/7e29e2bb-3171-4f73-9e77-288e9e5ed91d)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/a4b758db-5c59-4d8c-9d60-f58d508756c6)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/db7b09c1-c702-4a5c-bd08-9c7b28d2e5bc)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/95b9f289-02a8-4f81-bbf2-8500e320dd85)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/b75680d8-07af-4b9e-aa48-8f24eb5c2977)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/ab23f8db-d5f0-4ea7-9da4-04382619cf45)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/018ee67a-3be3-4816-82d2-9cd5a7d73f9b)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/1ca3baae-9e29-44ae-bbdb-e21ad37e2a44)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/f5fed2e1-d31d-4098-a7b2-8e223a0b0a02)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/89fd6426-16f2-40f8-96cf-65d54a1dc752)
-
-**Admin panel**
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/eb7e45a1-e43a-46e3-b0be-1299c4d60eaa)
-<br>
-![image](https://github.com/17neverends/renaissance-med/assets/118381764/ddd05ef7-c49e-4c2e-a914-d44ff4ab3d63)
-
