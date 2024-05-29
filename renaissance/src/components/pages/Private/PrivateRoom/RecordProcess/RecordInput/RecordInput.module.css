@@ -1,0 +1,21 @@
+.recordinput {
+    height: 30px;
+    width: 500px;
+    margin: 5px 0;
+    font-size: 17px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid white; 
+    border-left: 2px solid white; 
+    border-right: 2px solid white;
+    margin-bottom: 10px;
+    transition: border 0.3s linear;
+}
+
+.recordinput:focus {
+   border-radius: 10px;
+   border-bottom: 2px solid black;
+   border-top: 2px solid black; 
+   border-left: 2px solid black; 
+   border-right: 2px solid black;
+}

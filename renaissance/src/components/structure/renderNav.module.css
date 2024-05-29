@@ -1,0 +1,55 @@
+.menu {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 200;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+
+
+
+    .menuItem {
+
+         margin: 0 30px;
+
+         a {
+              color: #000000;
+              text-decoration: none;
+              
+         }
+
+
+    }
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 1000px) {
+    .menuItem {
+
+        font-size: 15px;
+
+   }
+}

@@ -1,0 +1,27 @@
+.rowInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+}
+
+.titleRow {
+    font-size: 15px;
+    color: black;
+}
+
+.inputRow {
+    min-width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s;
+
+}
+
+.inputRow:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}

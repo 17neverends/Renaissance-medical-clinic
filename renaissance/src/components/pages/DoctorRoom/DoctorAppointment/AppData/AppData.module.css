@@ -1,0 +1,96 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.appData {
+    font-size: 30px;
+}
+
+
+.openService {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  
+  .openService:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+  }
+  
+  
+  
+.openService:hover::before {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+}
+
+.openService span {
+    position: relative;
+}
+
+
+.recordinput {
+    height: 30px;
+    width: 500px;
+    margin: 5px 0;
+    font-size: 17px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid white; 
+    border-left: 2px solid white; 
+    border-right: 2px solid white;
+    margin-bottom: 10px;
+    transition: border 0.3s linear;
+}
+
+.recordinput:focus {
+   border-radius: 10px;
+   border-bottom: 2px solid black;
+   border-top: 2px solid black; 
+   border-left: 2px solid black; 
+   border-right: 2px solid black;
+}
+
+
+.areaInput {
+    resize: none;
+    width: 500px;
+    height: auto;
+    margin: 5px 0;
+    font-size: 17px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid white; 
+    border-left: 2px solid white; 
+    border-right: 2px solid white;
+    margin-bottom: 10px;
+    transition: border 0.3s linear;
+}
+
+.areaInput:focus {
+   border-radius: 10px;
+   border-bottom: 2px solid black;
+   border-top: 2px solid black; 
+   border-left: 2px solid black; 
+   border-right: 2px solid black;
+}

@@ -1,0 +1,81 @@
+.recordpoint {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the ends */
+    align-items: center;
+    width: 100%;
+    animation: fadeIn 700ms ease-in-out;
+}
+
+.doclogo {
+    width: 130px;
+    height: 130px;
+    margin-right: 20px; /* Reduce the margin */
+}
+
+.docinfo {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+.docp {
+    font-size: 25px;
+}
+
+.spec {
+    font-size: 25px;
+}
+
+.datetime {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.date {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 20px;
+}
+
+.full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.7s, transform 0.7s; 
+    width: 70vw;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    animation: fadeIn 500ms ease-in-out;
+}
+
+.full:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.addit {
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: left;
+    animation: fadeIn 700ms ease-in-out;
+}
+
+.additinfo {
+    font-size: 20px;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

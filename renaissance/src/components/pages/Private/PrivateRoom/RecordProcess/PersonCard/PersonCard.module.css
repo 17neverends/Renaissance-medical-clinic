@@ -1,0 +1,27 @@
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.cardImg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}

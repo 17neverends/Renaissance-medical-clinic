@@ -1,0 +1,144 @@
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+.fadein {
+    animation: fadeIn 500ms ease-in-out;
+}
+.item {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    max-width: 30%;
+}
+
+.item:nth-of-type(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.item p {
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.item h3 {
+    text-align: center;
+}
+
+.openService {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+
+.openService:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+ 
+
+.openService:hover::before {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+}
+
+.openService span {
+    position: relative;
+}
+
+
+.info h3 {
+    color: #3a3a3a;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+
+}
+
+
+
+
+.serviceItems {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    align-items: first baseline;
+    justify-content: center;
+}
+
+.desc {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.infoTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+    .info h2 {
+        font-size: 30px;
+    }
+
+    .aboutInfo {
+        font-size: 20px;
+        padding: 35px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .serviceItems {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .item {
+        max-width: 100%;
+
+    }
+
+    .desc {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}

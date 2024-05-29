@@ -1,0 +1,159 @@
+.card {
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    min-width: 420px;
+    overflow: hidden;
+    transition: box-shadow 0.3s, transform 0.3s;
+
+}
+
+.card:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px) scale(1.1);
+}
+
+.patcientCard {
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    min-width: 420px;
+    overflow: hidden;
+    background-color: #cccccc;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.patcientCard:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px) scale(1.1);
+}
+
+.patcientCardInfo {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+
+}
+
+.cardDisc {
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    min-width: 420px;
+    overflow: hidden;
+    background-color: #cccccc;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.cardDisc:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px) scale(1.1);
+}
+
+.cardDiscInfo {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+
+}
+
+.cardSnils {
+    background-color: rgb(176, 222, 176);
+}
+
+.cardPolis {
+    background-color: rgb(142, 168, 203);
+}
+
+.cardInfo {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cardInfoSnils {
+    background-color: rgb(199, 230, 199);
+}
+
+.cardInfoPolis {
+    background-color: rgb(206, 216, 246);
+}
+
+.cardCode {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cardName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+.cardDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.codenumber {
+    font-weight: 500;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+
+.codenumberSnils {
+    color: rgb(78, 113, 78);
+}
+
+.codenumberPolis {
+    color: rgb(140, 145, 204);
+}
+
+.copyButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
+
+.copyButton img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.copyImg {
+    filter: hue-rotate(0deg);
+}
+
+.gray {
+    filter: grayscale();
+}
+
+
+.polisRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}

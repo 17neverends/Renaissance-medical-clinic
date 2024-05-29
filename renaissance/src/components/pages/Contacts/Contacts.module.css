@@ -1,0 +1,115 @@
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fadein {
+    animation: fadeIn 500ms ease-in-out;
+}
+
+.info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 10px;
+}
+
+.info p {
+    color: #3a3a3a;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.contactImg {
+    width: 40%;
+    height: 40%;
+    border-radius: 5px;
+    display: flex; 
+    margin-bottom: 20px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+
+.links a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+.hiddenQRs {
+    background-color: transparent;
+    backdrop-filter: blur(17px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    animation: fadeIn 1s ease;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+.QRs {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.openService {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.7s, background-color 0.7s, border-color 0.7s;
+    min-width: 76%;
+}
+
+.centeredButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.openService:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+
+.title {
+    margin-top: 70px;
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+}

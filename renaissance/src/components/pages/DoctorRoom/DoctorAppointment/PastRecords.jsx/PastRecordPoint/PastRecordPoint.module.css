@@ -1,0 +1,62 @@
+.recordpoint {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    animation: fadeIn 700ms ease-in-out;
+}
+
+
+.docinfo {
+    display: flex;
+    align-items: last baseline;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+
+
+.docp {
+    font-size: 25px;
+}
+
+
+
+.datetime {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.date {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 20px;
+}
+
+.full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.7s, transform 0.7s; 
+    width: 70vw;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    animation: fadeIn 500ms ease-in-out;
+}
+
+.full:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

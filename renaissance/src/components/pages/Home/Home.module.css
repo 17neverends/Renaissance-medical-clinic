@@ -1,0 +1,111 @@
+.background {
+    position: relative;
+}
+
+.heroContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; 
+}
+
+.about {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 70px;
+}
+
+.docsImg {
+    width: 50%;
+    height: 50%;
+    margin-right: 70px;
+    border-radius: 30px;
+
+}
+
+.infoDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoTitle {
+    font-size: 50px;
+}
+
+.infoParaghs {
+    line-height: 30px;
+}
+
+.infoParaghs p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+
+.wrapper {
+    height: 1700px;
+}
+
+.questions {
+    height: 1000px;
+}
+  
+  
+.parallaxImg {
+    height: 100%;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/setka.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; 
+}
+
+.resultsDiv {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+.questionDiv {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.service > * {
+    transition: opacity 0.6s ease;
+}
+
+.service:hover > *:not(:hover) {
+    opacity: 0; 
+}

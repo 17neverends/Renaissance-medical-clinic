@@ -1,0 +1,93 @@
+.doc {
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.docName, .docDesc {
+    margin-bottom: 10px;
+}
+
+.docImg {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.docName {
+    font-size: 25px;
+    color: hsl(0, 0%, 0%);
+    margin-bottom: 10px;
+    
+}
+
+.docDesc {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+    min-height: 30px;
+}
+
+.docContainer {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: center;
+    animation: fadeIn 500ms ease-in-out;
+}
+
+.docImg {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.sliderWithButtons {
+    display: flex;
+}
+
+.sliderButton {
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #333;
+    transition: box-shadow 0.7s ease;
+}
+
+.sliderButton:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fadein {
+    animation: fadeIn 500ms ease-in-out;
+}
+
+.personalDesc {
+    margin-top: 10px;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.sliderContainer {
+    margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+.circleButton {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    background-color: #ffffff; 
+    text-align: center;
+    line-height: 50px; 
+    overflow: hidden;
+    transition: transform 0.7s;
+    cursor: pointer;
+}
+
+.circleButton:nth-child(2){
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.circleButton:hover {
+    transform: rotate(360deg); 
+}
+
+.Imglogo {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle; 
+}

@@ -1,0 +1,9 @@
+.qr {
+    width: 15%;
+    height: auto;
+    border-radius: 5px;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
